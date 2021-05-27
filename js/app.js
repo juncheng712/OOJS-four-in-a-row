@@ -18,6 +18,5 @@ beginGame.addEventListener('click', function() {
  * @param   {Object}    e - Keydown event object
  */
 document.addEventListener('keydown', function(event) {
-    console.log('keydown no problem');
     game.handleKeydown(event);
 });
